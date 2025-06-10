@@ -34,15 +34,17 @@ These files are excluded from the repository for security:
 ## 🧪 Setup Instructions
 
 1.Clone the repository
-
+```bash
 git clone https://github.com/your-username/drive-ownership-transfer.git
 cd drive-ownership-transfer
 
 2.Install dependencies
+```bash
 npm install
 
 3.Add your Google OAuth credentials
 Place your credentials.json in the root directory. It should look like:
+```json
 {
   "installed": {
     "client_id": "YOUR_CLIENT_ID",
@@ -56,6 +58,7 @@ Place your credentials.json in the root directory. It should look like:
 }
 
 4.Run the app
+```bash
 node index.js
 
 5.Authorize access
@@ -88,4 +91,4 @@ The app uses https://www.googleapis.com/auth/drive scope for full access.
 
 📧 Contact
 Jaypee C. Vilador
-📫 Email: jaypee.vilador1@gmail.com
+📫 Email: jaypee.vilador@gmail.com
