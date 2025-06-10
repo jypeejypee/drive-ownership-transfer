@@ -36,11 +36,11 @@ These files are excluded from the repository for security:
 1.Clone the repository
 ```bash
 git clone https://github.com/your-username/drive-ownership-transfer.git
-cd drive-ownership-transfer
+cd drive-ownership-transfer```
 
 2.Install dependencies
 ```bash
-npm install
+npm install```
 
 3.Add your Google OAuth credentials
 Place your credentials.json in the root directory. It should look like:
@@ -55,11 +55,11 @@ Place your credentials.json in the root directory. It should look like:
     "client_secret": "YOUR_CLIENT_SECRET",
     "redirect_uris": ["http://localhost"]
   }
-}
+}```
 
 4.Run the app
 ```bash
-node index.js
+node index.js```
 
 5.Authorize access
 You’ll be given a URL in the terminal.
