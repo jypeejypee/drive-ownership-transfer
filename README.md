@@ -73,8 +73,7 @@ After successful authorization, the app will:
 ## 📬 What Happens Next?
 - The recipient should go to **Google Drive → Shared with me → File → Share**
 - A "⚠️ Owner request pending" message will appear
-- They must accept the ownership manually the first time
-- After the first manual acceptance, future transfers can happen automatically
+- They must accept the ownership manually.
 
 ---
 
